@@ -1,0 +1,23 @@
+{
+  "name": "biratlc.github.io",
+  "version": "1.0.0",
+  "description": "You can use the [editor on GitHub](https://github.com/Biratlc/Biratlc.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Biratlc/Biratlc.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Biratlc/Biratlc.github.io/issues"
+  },
+  "homepage": "https://github.com/Biratlc/Biratlc.github.io#readme",
+  "dependencies": {
+    "http-server": "^0.11.1"
+  }
+}

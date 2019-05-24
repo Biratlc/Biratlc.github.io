@@ -126,7 +126,7 @@ img
 
 .bg1
 {
-	background: url("../images/bg-1.jpg") no-repeat bottom center;
+	background: url("../images/header-mountain.jpg") no-repeat bottom center;
 	background-size: cover;
 }
 
@@ -216,20 +216,24 @@ img
 	{
 		font-size: 50px;
 		line-height: 50px;
-		font-weight: 400;
+		font-weight: 500;
 		text-transform: uppercase;
-		color: #FFF;
-		font-family: "Dosis";
+		color: #fff;
+		font-family: "Tahoma";
 		letter-spacing: 2px;
-		margin: 0 0 20px 0;
+		margin: 0 0 40px 0;
 	}
 
 	#middlecont #clock
 	{
+		/*padding: 0;
+		width: 100%;
+		max-width: 700px;
+		margin: 0 auto;*/
 		padding: 0;
 		width: 100%;
 		max-width: 700px;
-		margin: 0 auto;
+		margin: 0 auto 140px auto;
 	}
 	
 		#middlecont #clock div
@@ -766,8 +770,30 @@ img
 
 @media only screen and (max-width: 480px)
 {
+
 	
-	
-	
+
 }
+.grid-container {
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	grid-gap: 10px;
+	background-color: #2196F3;
+	padding: 10px;
+}
+
+.grid-container > div {
+	background-color: rgba(255, 255, 255, 0.8);
+	text-align: center;
+	padding: 20px 0;
+	font-size: 30px;
+}
+.btn btn-info btn-lg {
+padding :50px 100px !important;
+}
+
+#sth{
+	padding:0 50px 1000px 0;
+}
+
 

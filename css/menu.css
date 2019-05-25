@@ -69,6 +69,7 @@
 	#menucont #menu ul#fullmenucont li:not(:hover).hasChild ul
 	{
 		visibility: hidden;
+		color:black;
 		top: 43px;
 	}
 
@@ -150,6 +151,8 @@
 .mean-container .mean-nav
 {
 	float: left;
+	color: black !important;
+	font-family: Arial;
 	width: 100%;
 }
 

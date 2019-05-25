@@ -173,6 +173,7 @@
 }
 .fa-music:before {
   content: "\f001";
+  color:#f75d4f;
 }
 .fa-search:before {
   content: "\f002";
@@ -906,6 +907,7 @@
 }
 .fa-desktop:before {
   content: "\f108";
+  color:#f75d4f;
 }
 .fa-laptop:before {
   content: "\f109";
@@ -1558,6 +1560,7 @@
 .fa-soccer-ball-o:before,
 .fa-futbol-o:before {
   content: "\f1e3";
+  color: #f75d4f;
 }
 .fa-tty:before {
   content: "\f1e4";

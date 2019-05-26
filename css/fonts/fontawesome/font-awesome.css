@@ -175,6 +175,15 @@
   content: "\f001";
   color:#f75d4f;
 }
+.fa-music:hover {
+  /*transition: 2s!important;
+  transform: rotateY(360deg)!important;
+  transition-delay: unset;*/
+  transform: scaleX(-1);
+  -moz-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  -ms-transform: scaleX(-1);
+}
 .fa-search:before {
   content: "\f002";
 }
@@ -909,6 +918,15 @@
   content: "\f108";
   color:#f75d4f;
 }
+.fa-desktop:hover {
+  /*transform: scaleX(-1);
+  -moz-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  -ms-transform: scaleX(-1);*/
+  transition: 2s!important;
+  transform: rotateY(180deg)!important;
+  transition-delay: unset
+}
 .fa-laptop:before {
   content: "\f109";
 }
@@ -1561,7 +1579,15 @@
 .fa-futbol-o:before {
   content: "\f1e3";
   color: #f75d4f;
+
 }
+.fa-soccer-ball-o:hover,
+.fa-futbol-o:hover {
+  transition: 2s!important;
+  transform: rotateZ(180deg)!important;
+  transition-delay: unset;
+}
+
 .fa-tty:before {
   content: "\f1e4";
 }

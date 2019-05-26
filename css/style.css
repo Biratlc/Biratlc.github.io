@@ -21,7 +21,7 @@
 @import url("//fonts.googleapis.com/css?family=Alegreya+Sans:300,300italic,400,400italic,500,500italic,700,700italic,800,800italic,900,900italic");
 @import url("//fonts.googleapis.com/css?family=Dosis:200,300,400,500,600,700,800");
 @import url("//fonts.googleapis.com/css?family=Noto+Sans:400,400italic,700,700italic");
-
+@import url("https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js");
 /* ==================================================
    Global Styles
 ================================================== */
@@ -126,7 +126,7 @@ img
 
 .bg1
 {
-	background: url("../images/header-mountain.jpg") no-repeat bottom center;
+	background: url("../images/header-mountain1.jpg") no-repeat bottom center;
 	background-size: cover;
 }
 
@@ -288,7 +288,8 @@ img
 	
 	#newslettercont p
 	{
-		margin: 20 0 0 0;
+		margin: 20px 0 0 0;
+		font-size:1.5em!important;
 	}
 		
 #ourteamcont
@@ -372,13 +373,15 @@ img
 	{
 		position: relative;
 		text-align: center;
+
+
 	}
 	
 		#ourteamcont .owl-carousel .item p img
 		{
 			display: inline-block;
-			width: 100%;
-			max-width: 120px;
+			width: 50%;
+			max-width: 170px;
 			
 			-webkit-border-radius: 80px;
 			-moz-border-radius: 80px;
@@ -632,14 +635,18 @@ img
 			
 	#servicescont
 	{
-		padding: 40px 0 30px 0;
+		pad
+		ding: 40px 0 30px 0;
 	}
-	
+
+
+	\
 		#servicescont .row
-		{
+	\	{
+
 			padding: 0;
 		}
-		
+		\
 		#servicescont .row .box
 		{
 			padding: 0 0 30px 0;
@@ -820,4 +827,68 @@ padding :50px 100px !important;
 }
 #fullmenucont{
 	font-family: Arial;
+}
+.glyphicon{
+	-webkit-transform: rotateZ(720deg);
+	-moz-transform: rotateZ(720deg);
+	transform: rotateZ(720deg);
+}
+.container-fluid.bg1.clearfix{
+	height:500px;
+}
+.row.col-sm-12.h2, h2 {
+	font-size: 2.5rem !important;
+	color: #f8f9fa;
+	text-align: -webkit-center;
+}
+.row.col-sm-12.h4, h4 {
+	font-size: 2.5rem !important;
+	color: black;
+	text-align: -webkit-center;
+}
+.row.col-sm-12.p, p {
+	margin-top:1em !important;
+}
+.fa-angle-double-up:before {
+	color: red;
+	content: "\f102";
+
+#contact .card:hover i,#contact .card:hover h4{
+	color: #87d37c;
+}
+#middlecont h3 span{
+	color:#e74c3ccf;
+
+}
+.glow {
+	font-size: 80px;
+	color: #e74c3ccf;
+	text-align: center;
+	-webkit-animation: glow 1s ease-in-out infinite alternate;
+	-moz-animation: glow 1s ease-in-out infinite alternate;
+	animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+	from {
+		text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+	}
+
+	to {
+		text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+	}
+}
+
+#ourteamcont.dwdgrid-8.box.clearfix.item
+{
+	height:250px!important;
+	width: 400px!important;
+
+}
+#ourteamcont .owl-carousel .item
+{
+	height:250px!important;
+	width: 400px!important;
+
+
 }

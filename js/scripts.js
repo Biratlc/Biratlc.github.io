@@ -96,7 +96,7 @@ $(document).ready(function() {
 		autoplayTimeout: 6000,
 		autoplayHoverPause: true,
 		stagePadding: 0,
-		margin: 25,
+		margin: 0,
 		nav: false,
 		dots: false,
 		loop: true,
@@ -106,7 +106,7 @@ $(document).ready(function() {
 			0: 		{ items: 1 },
 			480: 	{ items: 2 },
 			768: 	{ items: 3 },
-			960: 	{ items: 2 }
+			960: 	{ items: 3 }
 		},
 		navText: ["<span class='fa fa-angle-left'></span>","<span class='fa fa-angle-right'></span>"],
 	});

@@ -126,7 +126,7 @@ img
 
 .bg1
 {
-	background: url("../images/header-mountain1.jpg") no-repeat bottom center;
+	background: url("../images/bg-1.jpg") no-repeat bottom center;
 	background-size: cover;
 }
 
@@ -640,13 +640,12 @@ img
 	}
 
 
-	\
-		#servicescont .row
-	\	{
+	#servicescont .row
+		{
 
 			padding: 0;
 		}
-		\
+
 		#servicescont .row .box
 		{
 			padding: 0 0 30px 0;
@@ -852,7 +851,7 @@ padding :50px 100px !important;
 .fa-angle-double-up:before {
 	color: red;
 	content: "\f102";
-
+}
 #contact .card:hover i,#contact .card:hover h4{
 	color: #87d37c;
 }
@@ -861,7 +860,7 @@ padding :50px 100px !important;
 
 }
 .glow {
-	font-size: 80px;
+	font-size: 35px;
 	color: #e74c3ccf;
 	text-align: center;
 	-webkit-animation: glow 1s ease-in-out infinite alternate;
@@ -871,24 +870,24 @@ padding :50px 100px !important;
 
 @-webkit-keyframes glow {
 	from {
-		text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+		text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #d3cdd0 /*#e60073*/, 0 0 40px /*#e60073*/ #7a616e, 0 0 50px /*#e60073*/ #84777d, 0 0 60px /*#e60073*/ #331a1a, 0 0 70px /*#e60073*/ #331a1a
 	}
-
 	to {
-		text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+		text-shadow: 0 0 20px #fff, 0 0 30px #331a1a/*#ff4da6*/, 0 0 40px #331a1a/*#d3cdd0*//*#ff4da6*/, 0 0 50px #5e5151/*#ff4da6*/, 0 0 60px /*#ff4da6*/, 0 0 70px #544242/*#ff4da6*/, 0 0 80px #331a1a/*#ff4da6*/;
 	}
 }
 
-#ourteamcont.dwdgrid-8.box.clearfix.item
-{
-	height:250px!important;
-	width: 400px!important;
-
+.row.col-sm-12.h3, h3{
+	text-align: center!important;
+	font-size: 2.75rem!important;
+	padding-bottom: 10px!important;
+	padding-top: 10px!important;
 }
-#ourteamcont .owl-carousel .item
+#ourteam p1
 {
-	height:250px!important;
-	width: 400px!important;
-
-
+	font-size: 15px;
+	line-height: 18px;
 }
+
+
+

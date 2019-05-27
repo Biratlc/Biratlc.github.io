@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/Biratlc/Biratlc.github.io#readme",
   "dependencies": {
+    "@google/maps": "^0.5.5",
     "animejs": "^2.0.2",
     "bootstrap": "^4.3.1",
     "glyphicons": "^0.2.0",

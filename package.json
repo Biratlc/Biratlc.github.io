@@ -24,7 +24,7 @@
     "glyphicons": "^0.2.0",
     "glyphicons-only-bootstrap": "^1.0.1",
     "http-server": "^0.11.1",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "nodemon": "^1.19.0",
     "popper.js": "^1.15.0"
   }
